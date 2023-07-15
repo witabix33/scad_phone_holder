@@ -75,13 +75,18 @@ Adjust parameters to your needs in phone_holder_demo.scad file
 The phone_holder_demo.scad is not suitable to print.
 
 Printing might be done using these scripts *.SCAD (OpenScad) or *.STL  as input for your slicer :
-- [phholder_p.scad](https://github.com/witabix33/scad_phone_holder/blob/main/files/phholder_p.scad) : printing any part
-- [phholder_p1.scad](https://github.com/witabix33/scad_phone_holder/blob/main/files/phholder_p1.scad) : printing only the holder part
-- [phholder_p2.scad](https://github.com/witabix33/scad_phone_holder/blob/main/files/phholder_p2.scad) : printing without the holder part
-- [phholder_padv.scad](https://github.com/witabix33/scad_phone_holder/blob/main/files/phholder_padv.scad) : printing the advertiser only
-- [phholder_phol.scad](https://github.com/witabix33/scad_phone_holder/blob/main/files/phholder_phol.stl) : priting the phone holder part only
+- [phholder_p.scad](https://github.com/witabix33/scad_phone_holder/blob/main/files/phholder_p.scad) : compute printing model with any part
+  - [phholder_p.stl](https://github.com/witabix33/scad_phone_holder/blob/main/files/phholder_p.stl) : corresponding printing input for your slicer, with any part[¹]
+- [phholder_p1.scad](https://github.com/witabix33/scad_phone_holder/blob/main/files/phholder_p1.scad) : compute printing model with only the holder part
+  - [phholder_p1.stl](https://github.com/witabix33/scad_phone_holder/blob/main/files/phholder_p1.stl) corresponding printing input for your slicer, with only the holder part [¹]
+- [phholder_p2.scad](https://github.com/witabix33/scad_phone_holder/blob/main/files/phholder_p2.scad) : compute printing model with without the holder part
+  - [phholder_p2.stl](https://github.com/witabix33/scad_phone_holder/blob/main/files/phholder_p2.stl) corresponding printing input for your slicer, without the holder part [¹]
+- [phholder_padv.scad](https://github.com/witabix33/scad_phone_holder/blob/main/files/phholder_padv.scad) : compute printing model with the advertiser only
+  - [phholder_padv.stl](https://github.com/witabix33/scad_phone_holder/blob/main/files/phholder_padv.stl) : corresponding printing input for your slicer,with the advertiser only[¹]
+- [phholder_phol.scad](https://github.com/witabix33/scad_phone_holder/blob/main/files/phholder_phol.stl) : compute printing model with the phone holder part only
+  - [phholder_phol.stl](https://github.com/witabix33/scad_phone_holder/blob/main/files/phholder_phol.scad): corresponding printing input for your slicer,with the phone holder part only[¹]
 
-
+[¹] Whener you modify the corresponding SCAD file, you may have to re-compute the corresponding STL file as input for your slicer.
 
 
 ## Documentation
