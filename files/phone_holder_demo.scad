@@ -61,7 +61,7 @@ module main_assemble(isDemoMode=false, isTextEnabled=false, hasH2Hole=false, has
  *           |       |
  *           |       |
  * wall height is w_haut
- * wall length is w_haut
+ * wall length is w_long
  */
 // wall dimensions - this should be correled to holder dimensions
 w_long=200;
